@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = _23._03._10_MAUI_BierApp
+build_property.ProjectDir = C:\Users\georg\source\repos\23.03.10 MAUI_BierApp\23.03.10 MAUI_BierApp\
+
+[C:/Users/georg/source/repos/23.03.10 MAUI_BierApp/23.03.10 MAUI_BierApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _23._03._10_MAUI_BierApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/georg/source/repos/23.03.10 MAUI_BierApp/23.03.10 MAUI_BierApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _23._03._10_MAUI_BierApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/georg/source/repos/23.03.10 MAUI_BierApp/23.03.10 MAUI_BierApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _23._03._10_MAUI_BierApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/georg/source/repos/23.03.10 MAUI_BierApp/23.03.10 MAUI_BierApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _23._03._10_MAUI_BierApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/georg/source/repos/23.03.10 MAUI_BierApp/23.03.10 MAUI_BierApp/View/CounterView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _23._03._10_MAUI_BierApp.View.CounterView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CounterView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CounterView.xaml
+
+[C:/Users/georg/source/repos/23.03.10 MAUI_BierApp/23.03.10 MAUI_BierApp/View/EditPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _23._03._10_MAUI_BierApp.View.EditPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\EditPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\EditPageView.xaml
+
+[C:/Users/georg/source/repos/23.03.10 MAUI_BierApp/23.03.10 MAUI_BierApp/View/NewPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _23._03._10_MAUI_BierApp.View.NewPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\NewPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\NewPageView.xaml
+
+[C:/Users/georg/source/repos/23.03.10 MAUI_BierApp/23.03.10 MAUI_BierApp/View/StatsView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _23._03._10_MAUI_BierApp.View.StatsView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\StatsView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\StatsView.xaml

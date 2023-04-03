@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_23._03._10_MAUI_BierApp.View.EditPageView"
+             xmlns:modelview="clr-namespace:_23._03._10_MAUI_BierApp.ModelView"
+             x:DataType="modelview:EditPageModelView"
+             Shell.TabBarIsVisible="False">
+    <ScrollView HorizontalOptions="Center" WidthRequest="330" Padding="10,30,10,30">
+        <StackLayout Spacing="20">
+
+            <ImageButton Source="{Binding Bierimage}" Margin="10" WidthRequest="80" HeightRequest="100"
+                         Command="{Binding TakePhotoCommand}"/>
+            <Label Text="Edit Bier" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold"/>
+
+            <Frame Padding="15">
+                <VerticalStackLayout>
+                    <Label Text="Name" FontSize="Small"/>
+                    <Entry Text="{Binding Biername}"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Padding="15">
+                <VerticalStackLayout>
+                    <Label Text="Zählwert" FontSize="Small"/>
+                    <Entry Text="{Binding Biercount}"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Padding="15">
+                <VerticalStackLayout>
+                    <Label Text="Liter" FontSize="Small"/>
+                    <Entry Text="{Binding Bierliter}"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Padding="15">
+                <VerticalStackLayout>
+                    <Picker Title="Verknüpfung"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                <Button Text="Speichern"
+                        Command="{Binding SaveCommand}"/>
+                <Button Text="Schließen"
+                        Command="{Binding CloseCommand}"/>
+                <Button Text="Löschen" BackgroundColor="Red"
+                        Command="{Binding DeleteCommand}"/>
+
+            </HorizontalStackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

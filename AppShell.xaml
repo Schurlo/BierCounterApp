@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="_23._03._10_MAUI_BierApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:_23._03._10_MAUI_BierApp.View"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="False"
+    Shell.TabBarBackgroundColor="LightGray">
+
+    <TabBar>
+        <Tab Title="Counter"
+             Icon="beer.svg"
+             >
+            <ShellContent Route="CounterPage" ContentTemplate="{DataTemplate local:CounterView}"/>
+        </Tab>
+        <Tab Title="Stats"
+             Icon="diagram.svg">
+            <ShellContent ContentTemplate="{DataTemplate local:StatsView}"/>
+        </Tab>
+    </TabBar>
+
+</Shell>

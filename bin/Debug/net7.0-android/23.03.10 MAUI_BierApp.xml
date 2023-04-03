@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>23.03.10 MAUI_BierApp</name>
+    </assembly>
+    <members>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.NewBier">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.newBier"/>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.EditBier">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.editBier"/>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.GesamtLiter">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.gesamtLiter"/>
+        </member>
+        <member name="M:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.OnNewBierChanged(_23._03._10_MAUI_BierApp.Model.Bier)">
+            <summary>Executes the logic for when <see cref="P:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.NewBier"/> just changed.</summary>
+        </member>
+        <member name="M:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.OnEditBierChanged(System.Boolean)">
+            <summary>Executes the logic for when <see cref="P:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.EditBier"/> just changed.</summary>
+        </member>
+        <member name="F:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.plusBierCommand">
+            <summary>The backing field for <see cref="P:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.PlusBierCommand"/>.</summary>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.PlusBierCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.PlusBier(_23._03._10_MAUI_BierApp.Model.Bier)"/>.</summary>
+        </member>
+        <member name="F:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.minusBierCommand">
+            <summary>The backing field for <see cref="P:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.MinusBierCommand"/>.</summary>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.MinusBierCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.MinusBier(_23._03._10_MAUI_BierApp.Model.Bier)"/>.</summary>
+        </member>
+        <member name="F:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.editPageCommand">
+            <summary>The backing field for <see cref="P:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.EditPageCommand"/>.</summary>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.EditPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.EditPage(_23._03._10_MAUI_BierApp.Model.Bier)"/>.</summary>
+        </member>
+        <member name="F:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.newPageCommand">
+            <summary>The backing field for <see cref="P:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.NewPageCommand"/>.</summary>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.NewPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_23._03._10_MAUI_BierApp.ModelView.CounterModelView.NewPage"/>.</summary>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.EditBier">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.editBier"/>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.Biername">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.biername"/>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.Biercount">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.biercount"/>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.Bierliter">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.bierliter"/>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.Bierimage">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.bierimage"/>
+        </member>
+        <member name="M:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.OnEditBierChanged(_23._03._10_MAUI_BierApp.Model.Bier)">
+            <summary>Executes the logic for when <see cref="P:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.EditBier"/> just changed.</summary>
+        </member>
+        <member name="F:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.takePhotoCommand">
+            <summary>The backing field for <see cref="P:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.TakePhotoCommand"/>.</summary>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.TakePhotoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.TakePhoto"/>.</summary>
+        </member>
+        <member name="F:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.saveCommand">
+            <summary>The backing field for <see cref="P:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.SaveCommand"/>.</summary>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.SaveCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.Save"/>.</summary>
+        </member>
+        <member name="F:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.closeCommand">
+            <summary>The backing field for <see cref="P:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.CloseCommand"/>.</summary>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.CloseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.Close"/>.</summary>
+        </member>
+        <member name="F:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.deleteCommand">
+            <summary>The backing field for <see cref="P:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_23._03._10_MAUI_BierApp.ModelView.EditPageModelView.Delete"/>.</summary>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.Biername">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.biername"/>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.Biercount">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.biercount"/>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.Bierimage">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.bierimage"/>
+        </member>
+        <member name="F:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.takePhotoCommand">
+            <summary>The backing field for <see cref="P:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.TakePhotoCommand"/>.</summary>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.TakePhotoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.TakePhoto"/>.</summary>
+        </member>
+        <member name="F:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.submitCommand">
+            <summary>The backing field for <see cref="P:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.SubmitCommand"/>.</summary>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.SubmitCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.Submit"/>.</summary>
+        </member>
+        <member name="F:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.closeCommand">
+            <summary>The backing field for <see cref="P:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.CloseCommand"/>.</summary>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.CloseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_23._03._10_MAUI_BierApp.ModelView.NewPageModelView.Close"/>.</summary>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.Model.Bier.Name">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.Model.Bier.name"/>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.Model.Bier.Image">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.Model.Bier.image"/>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.Model.Bier.Liter">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.Model.Bier.liter"/>
+        </member>
+        <member name="P:_23._03._10_MAUI_BierApp.Model.Bier.Count">
+            <inheritdoc cref="F:_23._03._10_MAUI_BierApp.Model.Bier.count"/>
+        </member>
+    </members>
+</doc>

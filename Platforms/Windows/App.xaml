@@ -1,0 +1,8 @@
+﻿<maui:MauiWinUIApplication
+    x:Class="_23._03._10_MAUI_BierApp.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:maui="using:Microsoft.Maui"
+    xmlns:local="using:_23._03._10_MAUI_BierApp.WinUI">
+
+</maui:MauiWinUIApplication>
